@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+
+body,html {
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+}
+
+.input {
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    width: 700px;
+    height: 50px;
+    font-size: 25px;
+    box-shadow: 0 3px 2px #4F4F4F;
+    border: 0;
+    padding: 10px;
+}
+
+.search {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    width: 700px;
+}
+
+.linksbox {
+    width: 600px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Muli', sans-serif;
+    font-size: 40px;
+    height: 400px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #FFF;
+    box-shadow: 0 3px 2px #4F4F4F;
+}
+
+.links {
+    width: 300px;
+    float: left;
+}
+
+.links a {
+    text-decoration: none;
+    color: #000;
+}
